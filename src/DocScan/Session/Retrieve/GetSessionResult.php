@@ -10,7 +10,7 @@ use Yoti\Util\DateTime;
 class GetSessionResult
 {
     /**
-     * @var mixed|null
+     * @var array<mixed>|null
      */
     private $sessionData;
 
@@ -84,9 +84,9 @@ class GetSessionResult
 
 
     /**
-     * @return mixed|null
+     * @return array<mixed>|null
      */
-    public function getSessionData(): ?mixed
+    public function getSessionData(): ?array
     {
         return $this->sessionData;
     }
